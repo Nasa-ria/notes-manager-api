@@ -25,13 +25,14 @@ bash
 Copy code
 npm install
 Start the application:
-
-    code
+bash
+   code
    npm start
 This will start the server at http://localhost:3000.
 
 How to Test
 Run the tests:
+bash
      code
     npm test
 This will run the test suite and output the results.
