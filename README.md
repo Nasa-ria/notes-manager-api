@@ -30,9 +30,8 @@ Start the application:
 
 How to Test
 Run the tests:
-bash
-     code
-    npm test
+
+     npm test
 This will run the test suite and output the results.
 
 Setup Files or Scripts
