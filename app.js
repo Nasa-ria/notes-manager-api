@@ -1,6 +1,6 @@
 const express = require("express");
 require('dotenv').config();
-const rateLimit = require('express-rate-limit');
+// const rateLimit = require('express-rate-limit');
 
 const PORT = process.env.PORT;
 
@@ -27,11 +27,14 @@ app.use(express.urlencoded({extended: false}));
 //   app.use(speedLimiter);
 
   
-const userroute = require("./src/Route/userRoute");
+
+const userroute = require("./src/route/userRoute");
 app.use('/api',userroute)
 
+
   
-const noteroute = require("./src/Route/noteRoute");
+
+const noteroute = require("./src/route/noteRoute");
 app.use('/api',noteroute)
 
 app.listen(PORT, () => {

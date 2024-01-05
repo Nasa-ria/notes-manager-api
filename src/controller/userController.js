@@ -51,14 +51,4 @@ exports.create = async (req, res) => {
 
       
     
-    //   app.get('/search', (req, res) => {
-    //     const { q } = req.query;
-    //     if (!q) {
-    //       res.status(400).json({ message: 'Query parameter "q" is required' });
-    //     } else {
-    //       const results = users.filter(
-    //         (u) => u.name.toLowerCase().includes(q.toLowerCase()) || u.email.toLowerCase().includes(q.toLowerCase())
-    //       );
-    //       res.json(results);
-    //     }
-    //   });
+   
