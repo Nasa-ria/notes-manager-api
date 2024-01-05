@@ -27,12 +27,12 @@ app.use(express.urlencoded({extended: false}));
 //   app.use(speedLimiter);
 
   
-// const userroute = require("./src/Route/userRoute");
-// app.use('/api',userroute)
+const userroute = require("./src/Route/userRoute");
+app.use('/api',userroute)
 
   
-// const noteroute = require("./src/Route/noteRoute");
-// app.use('/api',noteroute)
+const noteroute = require("./src/Route/noteRoute");
+app.use('/api',noteroute)
 
 app.listen(PORT, () => {
     console.log(`Server listening on port :${PORT}`);
