@@ -35,20 +35,20 @@ Run the tests:
 This will run the test suite and output the results.
 
 # Setup Files or Scripts
-package.json: Contains the project's metadata and specifies its dependencies. It also includes scripts for running the application (npm start) and running tests (npm test).
+* package.json: Contains the project's metadata and specifies its dependencies. It also includes scripts for running the application (npm start) and running tests (npm test).
 
-.gitignore: Contains a list of files and directories to be ignored by Git, such as node_modules (which contains the installed dependencies) and any sensitive or environment-specific files.
+* .gitignore: Contains a list of files and directories to be ignored by Git, such as node_modules (which contains the installed dependencies) and any sensitive or environment-specific files.
 
-app.js: Entry point of the application that sets up the Express server and defines routes and  Contains custom middleware functions, including the rate limiter and request throttling middleware.
+* app.js: Entry point of the application that sets up the Express server and defines routes and  Contains custom middleware functions, including the rate limiter and request throttling middleware.
 
-databaseConection.js: Contains the mongoose  database setup and connection code.
+* databaseConection.js: Contains the mongoose  database setup and connection code.
 
-notecontroller.js: Contains the controller functions for handling CRUD operations on notes.
-usercontroller.js: Contains the controller functions for handling singin and signup operations on users.
+* notecontroller.js: Contains the controller functions for handling CRUD operations on notes.
+* usercontroller.js: Contains the controller functions for handling singin and signup operations on users.
 
 
-lib: Contains custom middleware functions, including the authentication  middleware function.
+* lib: Contains custom middleware functions, including the authentication  middleware function.
 
-tests/: Directory containing test files for the application.
+* tests/: Directory containing test files for the application.
 
-README.md: The file you are currently reading, which provides information about the application, its dependencies, and how to run and test it.
+* README.md: The file you are currently reading, which provides information about the application, its dependencies, and how to run and test it.
