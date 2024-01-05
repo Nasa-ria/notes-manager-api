@@ -67,4 +67,16 @@ exports.create = async (req, res) => {
         }
       
       };
+
+      exports.search = async (req, res) => {
+        const { q } = req.query;
+        if (!q) {
+          res.status(400).json({ message: 'Query parameter "q" is required' });
+        } else {
+          const results = notes.filter(
+            (u) => u.title.toLowerCase().includes(q.toLowerCase()) 
+          );
+          res.json(results);
+        }
+      };
       
