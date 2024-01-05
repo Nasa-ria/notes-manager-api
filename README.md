@@ -21,14 +21,12 @@ The application is built using Node.js with the Express framework . It uses mong
    cd your-repo
 Install dependencies:
 
-bash
-Copy code
-npm install
+     npm install
+  
 Start the application:
-bash
-   code
-   npm start
-This will start the server at http://localhost:3000.
+
+     npm start
+      This will start the server at http://localhost:3000.
 
 How to Test
 Run the tests:
