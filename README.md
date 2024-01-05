@@ -34,6 +34,7 @@ Run the tests:
      npm test
 This will run the test suite and output the results.
 
+
 # Setup Files or Scripts
 * package.json: Contains the project's metadata and specifies its dependencies. It also includes scripts for running the application (npm start) and running tests (npm test).
 
