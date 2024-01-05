@@ -9,7 +9,7 @@ router.get("/notes" ,controller.notes);
 router.get("/notes/:id" ,controller.note);
 router.delete("/notes/:id" ,controller.delete);
 router.get("/search" ,controller.search);
-router.get("/shareNote" ,controller.search);
+router.get("note/:id/shareNote" ,controller.search);
 
 
 module.exports = router;

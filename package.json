@@ -18,5 +18,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
 }
